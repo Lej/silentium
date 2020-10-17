@@ -1,0 +1,6 @@
+## Interface: 90001
+## Title: Silentium
+## Author: Lej
+## Version: 1.0
+embeds.xml
+Core.lua
