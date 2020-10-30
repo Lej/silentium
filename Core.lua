@@ -10,9 +10,9 @@ function Silentium:OnInitialize()
 
   self:RawHookScript(UIErrorsFrame, "OnEvent", function(...) self:OnEvent(...) end);
 
-  self:RegisterChatCommand("e", "DisableErrors");
-  self:RegisterChatCommand("r", "DisableReadyErrors");
-  self:RegisterChatCommand("s", "ToggleSound");
+  self:RegisterChatCommand("de", "DisableErrors");
+  self:RegisterChatCommand("dr", "DisableReadyErrors");
+  self:RegisterChatCommand("ts", "ToggleSound");
 end
 
 function Silentium:ToggleSound()
